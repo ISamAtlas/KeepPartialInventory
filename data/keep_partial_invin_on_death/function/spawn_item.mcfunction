@@ -1,0 +1,1 @@
+$loot spawn ~ ~1 ~ loot {pools:[{rolls:$(count),entries:[{type:"minecraft:item",name:"$(id)",modifier:{type:"minecraft:set_components",components:$(components)}}]}]}

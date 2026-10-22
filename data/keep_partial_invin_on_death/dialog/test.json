@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:notice",
+  "title": "Keep Partial Inventory On Death",
+  "after_action": "wait_for_response",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Config"
+    }
+  ],
+  "inputs": [
+    {
+      "key": "chance",
+      "type": "minecraft:number_range",
+      "label": "Chance of Dropping Each Item",
+      "start": 1,
+      "end": 10,
+      "step": 1,
+      "initial": 2
+    }
+  ],
+  "action": {
+    "label": "Done"
+  }
+}
