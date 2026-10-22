@@ -1,0 +1,1 @@
+execute as @a if score @s PartialInvinDeaths matches 1 run function keep_partial_invin_on_death:test
