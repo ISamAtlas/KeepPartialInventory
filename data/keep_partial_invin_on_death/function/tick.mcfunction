@@ -1,1 +1,1 @@
-execute as @a[scores={PartialInvinDeaths = 1}] at @s run function keep_partial_invin_on_death:select_items
+execute as @a[scores={PartialInvinDeaths = 1..}] at @s run function keep_partial_invin_on_death:select_items
