@@ -3,5 +3,6 @@
 # $teleport @s ~ ~$(key_2) ~
 
 scoreboard objectives add PartialInvinDeaths deathCount
+scoreboard objectives add CurrentSlotParsing dummy
 
 data modify storage minecraft:partial_death chance set value .8
