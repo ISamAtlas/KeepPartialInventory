@@ -1,4 +1,4 @@
-data modify storage minecraft:partial_death item set from entity @s equipment.body
+data modify storage minecraft:partial_death item set from entity @s equipment.chest
 data modify storage minecraft:partial_death item.components merge value {}
 
 function keep_partial_invin_on_death:spawn_item with storage minecraft:partial_death item

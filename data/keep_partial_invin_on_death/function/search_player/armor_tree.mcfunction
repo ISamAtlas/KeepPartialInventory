@@ -1,4 +1,6 @@
-execute if score @s[predicate=keep_partial_invin_on_death:chance_of_survival] CurrentSlotParsing matches 37 run function keep_partial_invin_on_death:replace/armor/helmet
-execute if score @s[predicate=keep_partial_invin_on_death:chance_of_survival] CurrentSlotParsing matches 38 run function keep_partial_invin_on_death:replace/armor/chestplate
-execute if score @s[predicate=keep_partial_invin_on_death:chance_of_survival] CurrentSlotParsing matches 39 run function keep_partial_invin_on_death:replace/armor/leggings
-execute if score @s[predicate=keep_partial_invin_on_death:chance_of_survival] CurrentSlotParsing matches 40 run function keep_partial_invin_on_death:replace/armor/boots
+execute if predicate keep_partial_invin_on_death:chance_of_survival run function keep_partial_invin_on_death:replace/armor/helmet
+execute if predicate keep_partial_invin_on_death:chance_of_survival run function keep_partial_invin_on_death:replace/armor/chestplate
+execute if predicate keep_partial_invin_on_death:chance_of_survival run function keep_partial_invin_on_death:replace/armor/leggings
+execute if predicate keep_partial_invin_on_death:chance_of_survival run function keep_partial_invin_on_death:replace/armor/boots
+
+say meow!
