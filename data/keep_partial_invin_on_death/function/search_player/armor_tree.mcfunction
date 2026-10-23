@@ -1,0 +1,4 @@
+execute if predicate keep_partial_invin_on_death:chance_of_survival run function keep_partial_invin_on_death:replace/armor/helmet
+execute if predicate keep_partial_invin_on_death:chance_of_survival run function keep_partial_invin_on_death:replace/armor/chestplate
+execute if predicate keep_partial_invin_on_death:chance_of_survival run function keep_partial_invin_on_death:replace/armor/leggings
+execute if predicate keep_partial_invin_on_death:chance_of_survival run function keep_partial_invin_on_death:replace/armor/boots

@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:random_chance",
+  "type": "random_chance",
   "chance": {
     "type": "minecraft:storage",
     "storage": "minecraft:partial_death",
